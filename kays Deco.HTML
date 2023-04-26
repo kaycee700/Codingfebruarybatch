@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAY's DECO</title>
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       }
+
+       .box{
+        background-image: url(unsplash.jpg);
+        background-size: 100%;
+        width: auto;
+        height: 600px;
+
+       }
+
+       .navigation{
+        display: flex;
+        justify-content: space-around;
+       }
+
+       li{
+        display: inline;
+        margin-right: 50px;
+        position: relative;
+        top: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+
+       a{
+        text-decoration: none;
+        color: black;
+       }
+
+       h3{
+        position: relative;
+        top: 30px;
+        right: 80px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /* font-weight: 800px; */
+       }
+
+       .bigh{
+        margin-top: 200px;
+        margin-left: 400px;
+        font-size: 70px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .button1{
+        background-color: black;
+        color: white;
+        width: 80px;
+        height: 30px;
+        border-radius: 12px;
+        margin-top: 30px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .box2{
+        background-color: black;
+        height: 180px;
+        display: flex;
+        justify-content: space-around;
+       }
+
+
+       .our{
+        color: white;
+        margin-top: 30px;
+        font-size: 35px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .our1{
+        color: white;
+        margin-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .our2{
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .our3{
+        color: white;
+        margin-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .our4{
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .our5{
+        color: white;
+        margin-top: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .our6{
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .box3{
+        background-color: rgb(224, 224, 224);
+        height: 1000px
+        ;
+       }
+
+       .best{
+         font-size: 60px;
+         text-align: center;
+         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .section{
+        padding-top: 50px;
+       }
+
+       .li2{
+        position: absolute;
+        right: 380px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .image{
+        display: flex;
+        justify-content: space-around;
+       }
+
+       img{
+        width: 20%;
+        margin-top: 120px;
+       }
+
+       .serve{
+        margin-top: 160px;
+        margin-left: 120px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .serve1{
+        font-size: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       }
+
+       .serve2{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: black;
+        color: white;
+        border-radius: 12px;
+        width: 100px;
+        height: 40px;
+       }
+
+       .footer1{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 40px;
+        font-weight: 400px;
+        position: absolute;
+        left: 30px;
+        top: 1850px;
+       }
+
+       .footer2{
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+        position: absolute;
+        left: 30px;
+        top: 2000px;
+
+       }
+
+       .footer3{
+        background-color: black;
+        color: white;
+        border-radius: 12px;
+        width: 110px;
+        height: 30px;
+        position: absolute;
+        left: 30px;
+        top: 2130px;
+
+       }
+
+       .king{
+        position: absolute;
+        background-color: rgb(167, 162, 162);
+        width: 300px;
+        height: 150px;
+        top: 1430px;
+        font-size: 9px;
+        left: 800px;
+        color: black;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 40px;
+        padding-top: 35px;
+        padding-left: 40px;
+       }
+
+       .king2{
+        top: 1650px;
+        left: 600px;
+       }
+
+       .king3{
+        left: 1150px;
+        top: 1550px;
+       }
+
+       .king4{
+        top: 1750px;
+        left: 1000px;
+       }
+
+       .f2{
+        font-size: 20px;
+       }
+
+       .f1{
+        font-size: 20px;
+        margin-left: 20px;
+       
+       }
+       .f2{
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 20px;
+       }
+       .f3{
+        font-size: 22px;
+        margin-left: 20px;
+       }
+       .f4{
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 20px;
+       }
+
+       .f5{
+        font-size: 22px;
+        margin-left: 20px;
+       }
+
+       .f6{
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 20px;
+       }
+
+       .f7{
+        font-size: 22px;
+        margin-left: 20px;
+       }
+
+       .f8{
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 20px;
+       }
+
+       .ulz{
+        position: relative;
+        display: flex;
+        top: 170px;
+        padding-left: 950px;
+       }
+
+       .ff{
+        height: 30%;
+        width: 30%;
+        margin-left: 450px;
+
+       }
+
+    .fff{
+        top: 120px;
+        width: 40%;
+        
+     }
+
+       .foot7{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        bottom:10px;
+
+       }
+
+       /* .z3{
+        left: 100px;
+       } */
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="navigation">
+            <h3><b>KAY's DECO</b></h3>
+        <ul>
+            <li><a href=""><b>About</b></a></li>
+            <li><a href=""><b>Services</b></a></li>
+            <li><a href=""><b>Categories</b></a></li>
+            <li><a href=""><b>Pricing</b></a></li>
+            <li><a href=""><b>Designs</b></a></li>
+            <li><a href=""><b>Contact</b></a></li>
+        </ul>
+        <button class="button1">Sign Up</button>
+       
+        </div>
+        <h1 class="bigh">Your Best Online Furnitures<br>& Interior Design Services</h1>
+
+    </div>
+
+    <div class="box2"> 
+         <div>
+            <p class="our"><b>Our Range</b><br><b>Of Products</b></p>
+         </div>
+         
+         <div>
+           <p class="our1"><b>Office Furnitures</b></p>
+            <br><pre></pre>
+            <p class="our2">Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Tempore perspiciatis quo, <br>doloribus numquam iure nulla facere! <br>In distinctio ea obcaecati.</p>
+         </div>
+
+         <div>
+            <p class="our3"><b>Garden Furnitures</b></p>
+            <br><pre></pre>
+            <p class="our4">Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Tempore perspiciatis quo, <br>doloribus numquam iure nulla facere! <br>In distinctio ea obcaecati.</p>
+         </div>
+
+         <div>
+            <p class="our5"><b>Outdoor Furnitures</b></p>
+            <br><pre></pre>
+            <p class="our6">Lorem ipsum dolor sit, amet consectetur<br> adipisicing elit. Tempore perspiciatis quo, <br>doloribus numquam iure nulla facere! <br>In distinctio ea obcaecati.</p>
+         </div>
+
+    </div>
+
+    <div class="box3">
+        <section class="section">
+            <p class="best"><b>Best Selling Categories</b></p>
+
+            <ul class="li2">
+                <li><b>Pricing</b></li>
+                <li><b>Order</b></li>
+                <li><b>Blog</b></li>
+                <li><b>Browse More</b></li>
+                <li><b>Images</b></li>
+                <li><b>Testimonies</b></li>
+                <li><b>Contact Us</b></li>
+            </ul>
+
+            <div class="image">
+               <img src="couch11.jpg" alt="">
+                <img src="couch7.jpg" alt="">
+                <img src="couch8.jpg" alt="">
+                <img src="couch9.jpg" alt="">
+            </div>
+
+            <div>
+                <h1 class="serve">Our Services</p>
+                    <br><pre></pre>
+                <p class="serve1">At Kay's Deco, we specialises in quality furnitures <br>ranging from home furnitures, kitchen furnitures,<br> garden furnitures, Office and outdoor furnitures.<br> Our materials are best sourced round the world.</p>
+                <br><pre></pre>
+                <button class="serve2">Browse More</button>
+            </div>
+
+                <div class="king king1">
+              <b class="f1">Outdoor Couch</b><br>
+              <p class="f2">Our outdoor couch is designed<br>to give to you maximum comfort.</p>
+                </div>
+
+                <div class="king king2">
+                    <b class="f3">Office Couch</b><br>
+                    <pre></pre>
+                    <p class="f4">Our Office couchs are designed<br>to keep you comfortable for hours<br> at work.</p>
+                </div>
+
+                <div class="king king3">
+                    <b class="f5">Home Couch</b>
+                    <p class="f6">Our Home Couch is perfectly<br>designed to help you relax<br>with utmost satisfaction when<br>you are at home.</p>
+                </div>
+
+                <div class="king king4">
+                    <b class="f7">Garden Couch</b>
+                    <p class="f8">Our Garden couch have unique<br>designs perfectly made with<br>naturally sourced materials.</p>
+                </div>
+        </section>
+    </div>
+
+    <footer style="background-color: rgb(224, 224, 224);">
+            <h2 class="footer1">We Provide You With The<br>Best Experience</h2>
+            <br>
+            <p class="footer2">Buying a chair may seem like a simple purchase, but everyone<br>has a unique body shape, resulting in one chair does not<br>fit all search. When shopping the right one for you, pay<br>attention to the ergonomics of the chair.</p>
+            <br>
+
+            <button class="footer3">Subscribe Now</button>
+
+            <footer class="box5">
+            
+                    <ul class="ulz">
+                        <li class="z1"><b>Years of<br>Performance<br><br>10+</b></li>
+                        <li class="z2"><b>Years of<br> Performance<br><br>18+</b></li>
+                        <li class="z3"><b>Years of<br> Performance<br><br>365+</b></li>
+                    </ul>
+             </footer>
+
+             <!-- <div class="foot7"> -->
+                <img class="ff" src="Footer2-removebg-preview.png" alt="An image">
+                <img class="fff" src="footer3-removebg-preview.jpg" alt="">
+            <!-- 
+                
+             -->
+
+    </footer>   
+</body>
+</html>
